@@ -2,16 +2,13 @@ import 'package:flutter/material.dart';
 
 import './quiz.dart';
 import './result.dart';
-// void main() {
-//   runApp(MyApp());
-// }
+
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return _MyAppState();
   }
 }
@@ -19,21 +16,21 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'What\'s your favorite color?',
+      'questionText': 'What\'s your favorite Movie?',
       'answers': [
-        {'text': 'Black', 'score': 10},
-        {'text': 'Red', 'score': 5},
-        {'text': 'Green', 'score': 3},
-        {'text': 'White', 'score': 1},
+        {'text': '3 Idiots', 'score': 10},
+        {'text': 'Race 3', 'score': 1},
+        {'text': 'Kalank', 'score': 3},
+        {'text': 'Kick', 'score': 2},
       ],
     },
     {
-      'questionText': 'What\'s your favorite animal?',
+      'questionText': 'What\'s your favorite singer?',
       'answers': [
-        {'text': 'Rabbit', 'score': 3},
-        {'text': 'Snake', 'score': 11},
-        {'text': 'Elephant', 'score': 5},
-        {'text': 'Lion', 'score': 9},
+        {'text': 'Badshah', 'score': 3},
+        {'text': 'Mukesh', 'score': 11},
+        {'text': 'Darshan Raval', 'score': 7},
+        {'text': 'Arijit Singh', 'score': 9},
       ],
     },
   ];
